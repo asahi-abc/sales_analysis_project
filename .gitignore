@@ -1,0 +1,19 @@
+# データセットをGitHubにアップしない
+data/
+
+# 学習済みモデル（サイズが大きいため）
+models/
+
+# Jupyter Notebook の一時ファイル
+.ipynb_checkpoints/
+
+# 仮想環境フォルダ（不要な場合）
+venv/
+__pycache__/
+
+# CSVやExcelデータも除外する場合
+*.csv
+*.xlsx
+
+# 画像データも除外する場合
+images/
